@@ -1,0 +1,49 @@
+h1 {
+    font-size: 52px;
+    text-align: center;
+    color: white;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+nav li {
+    font-family: Montserrat;
+    list-style: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 20px 0 0;
+}
+
+header {
+    background-color: #0b1c51;
+    text-align: center;
+}
+
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    h1 {
+        font-size: 48px;
+        margin: 14px 0;
+    }
+    header nav {
+        margin-top: 14px;
+    }
+    header nav ul li a{
+        padding-top: 0px;
+    }
+}
